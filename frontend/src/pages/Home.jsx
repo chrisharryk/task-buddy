@@ -11,7 +11,7 @@ export default function Home() {
 
   useEffect(() => {
     const fetchTasks = async () => {
-      const res = await fetch('/api/tasks', {
+      const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}/tasks`, {
         headers:{
           'Authorization': `Bearer ${user.token}`
         }

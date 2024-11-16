@@ -9,7 +9,7 @@ export default function TaskDetails({ task }) {
   async function handleClick() {
     if (!user) return
 
-    const res = await fetch(`/api/tasks/${task._id}`, {
+    const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}/tasks/${task._id}`, {
       method: 'DELETE',
       headers: {
         'Authorization': `Bearer ${user.token}`

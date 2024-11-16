@@ -20,7 +20,7 @@ export default function TaskForm() {
 
 		const task = { title, description }
 
-		const res = await fetch('/api/tasks', {
+		const res = await fetch(`${import.meta.env.VITE_BACKEND_URL}/tasks`, {
 			method: 'POST',
 			body: JSON.stringify(task),
 			headers: {

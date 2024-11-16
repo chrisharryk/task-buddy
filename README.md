@@ -2,7 +2,9 @@
 A MERN stack application for managing your tasks/to-do lists powered by JWTs for secure auth.
 
 ## Live Demo
-Check out the deployed app [here](https://task-buddy-ee2n.onrender.com)
+Check out the deployed app [here](https://task-buddy-ee2n.onrender.com) 
+
+Render has to cold boot the server after long hours of inactivity so it'll take a min for the apis to run
 
 ## Features
 **Authentication**: Secure login and registration (JWT-based).
@@ -23,7 +25,7 @@ Check out the deployed app [here](https://task-buddy-ee2n.onrender.com)
    ```
 3. The environment variables are stored on the render console for me, you're going to need your own mongo-url and jwt-secret
 4. Run the local server
-   ````
+   ```
    cd server && npm run dev
    cd ../client && npm run dev
    ```

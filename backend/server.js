@@ -5,6 +5,13 @@ const app = express()
 const taskRoutes = require('./routes/tasks')
 const userRoutes = require('./routes/user')
 const mongoose = require('mongoose')
+const cors = require('cors')
+
+// cors
+app.use(cors({
+  origin: 'https://task-buddy-1.onrender.com',
+  credentials: true
+}))
 
 // middleware
 app.use(express.json())

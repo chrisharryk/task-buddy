@@ -2,7 +2,7 @@
 A MERN stack application for managing your tasks/to-do lists powered by JWTs for secure auth.
 
 ## Live Demo
-Check out the deployed app [https://task-buddy-ee2n.onrender.com](here)
+Check out the deployed app [here](https://task-buddy-ee2n.onrender.com)
 
 ## Features
 **Authentication**: Secure login and registration (JWT-based).

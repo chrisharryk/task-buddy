@@ -9,7 +9,7 @@ const cors = require('cors')
 
 // cors
 app.use(cors({
-  origin: 'https://task-buddy-1.onrender.com',
+  origin: 'https://task-buddy-ee2n.onrender.com',
   credentials: true
 }))
 
